@@ -1,0 +1,10 @@
+h1#current-time {
+  font-size: 60px;
+  text-shadow: 2px 1px 1px #000;
+}
+p#current-date {
+  text-shadow: 1px 1px 1px #000;
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
