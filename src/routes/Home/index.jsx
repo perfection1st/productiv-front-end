@@ -1,9 +1,10 @@
 import './Home.css';
+import ModuleContainer from '../../components/ModuleContainer';
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home page</h1>
+    <div id="home-container">
+      <ModuleContainer />
     </div>
   );
 };
