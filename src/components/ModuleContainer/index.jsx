@@ -1,5 +1,5 @@
 import './ModuleContainer.css';
-import Time from '../Time';
+import Time from '../modules/Time';
 
 const ModuleContainer = () => {
   return (
