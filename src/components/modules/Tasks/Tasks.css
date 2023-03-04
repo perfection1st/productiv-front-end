@@ -1,0 +1,38 @@
+ul#todo-items {
+  margin-left: 10px;
+  padding: 0 15px 0 0;
+}
+ul#todo-items li {
+  margin: 10px 0 10px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px -1px 1px rgba(255, 255, 255, 0.15),
+    0px 4px 5px rgba(0, 0, 0, 0.1), 2px 0px 1px rgba(0, 0, 0, 0.1),
+    -2px 0px 1px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-shadow: 1px -5px 40px rgba(0, 0, 0, 1);
+  padding: 8px 10px 8px 10px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+ul#todo-items .important-task {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+ul#completed-todos {
+  opacity: 0.4;
+}
+ul#completed-todos .important-task {
+  background-color: rgba(255, 0, 0, 0.2);
+  text-decoration: line-through;
+}
+div#completed-tasks {
+  display: none;
+}
+h4#completed-tasks {
+  margin: 20px 0 20px 10px;
+}

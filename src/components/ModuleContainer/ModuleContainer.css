@@ -4,3 +4,55 @@ aside#module-container {
   padding: 2%;
   align-self: center;
 }
+.module-title {
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px -1px 1px rgba(255, 255, 255, 0.15),
+    0px 4px 5px rgba(0, 0, 0, 0.1), 2px 0px 1px rgba(0, 0, 0, 0.1),
+    -2px 0px 1px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-shadow: 1px -5px 40px rgba(0, 0, 0, 1);
+  font-weight: 300;
+}
+div.module {
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  justify-self: center;
+  border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  outline: 8px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(15px);
+  margin-top: 50px;
+  padding: 10px 10px 10px 10px;
+}
+.module-list {
+  margin-left: 10px;
+  padding: 0 15px 0 0;
+}
+.module-list li {
+  margin: 10px 0 10px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px -1px 1px rgba(255, 255, 255, 0.15),
+    0px 4px 5px rgba(0, 0, 0, 0.1), 2px 0px 1px rgba(0, 0, 0, 0.1),
+    -2px 0px 1px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-shadow: 1px -5px 40px rgba(0, 0, 0, 1);
+  padding: 8px 5px 8px 10px;
+}
